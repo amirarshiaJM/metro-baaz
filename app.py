@@ -1,11 +1,10 @@
-
 import pandas as pd
 import networkx as nx
 import streamlit as st
 
 
 st.set_page_config(
-    page_title="metro baaz",
+    page_title="metro baazww",
     page_icon="🚇",
     layout="centered"
 )
@@ -306,7 +305,7 @@ colors = {
 }
 
 
-df = pd.read_csv("station.csv")
+df = pd.read_excel("station.xlsx")
 
 stations = df.stack().dropna().tolist()
 
