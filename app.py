@@ -306,7 +306,7 @@ colors = {
 }
 
 
-df = pd.read_excel("station.xlsx")
+df = pd.read_csv("station.xlsx")
 
 stations = df.stack().dropna().tolist()
 
